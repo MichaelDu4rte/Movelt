@@ -46,6 +46,12 @@ main {
                 border: none;
                 background: transparent;
                 cursor: pointer;
+                transition: all .3s;
+
+                &:disabled {
+                    opacity: 0.5;
+                    cursor: not-allowed;
+                }
     
                 &.btn-primary {
                     color: #fff;
